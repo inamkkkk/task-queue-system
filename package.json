@@ -1,0 +1,17 @@
+{
+  "name": "task-queue-system",
+  "version": "1.0.0",
+  "description": "Simple task queue using RabbitMQ",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "worker": "node worker.js"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
